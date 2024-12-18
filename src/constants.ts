@@ -8,7 +8,6 @@ export const LABELS: Label[] = [
     identifier: 'earth',
     locales: [
       { lang: 'en', name: 'Earth 🌎', description: 'Earth'},
-      { lang: 'pt-BR', name: 'Terra 🌎', description: 'Terra'},
     ]
   },
   {
@@ -16,7 +15,6 @@ export const LABELS: Label[] = [
     identifier: 'fire',
     locales: [
       { lang: 'en', name: 'Fire 🔥', description: 'Fire'},
-      { lang: 'pt-BR', name: 'Fogo 🔥', description: 'Fogo'},
     ]
   },
   {
@@ -24,7 +22,6 @@ export const LABELS: Label[] = [
     identifier: 'air',
     locales: [
       { lang: 'en', name: 'Air 💨', description: 'Air'},
-      { lang: 'pt-BR', name: 'Ar 💨', description: 'Ar'},
     ]
   },
   {
@@ -32,7 +29,6 @@ export const LABELS: Label[] = [
     identifier: 'water',
     locales: [
       { lang: 'en', name: 'Water 💧', description: 'Water'},
-      { lang: 'pt-BR', name: 'Água 💧', description: 'Água'},
     ]
   },
   {
@@ -40,7 +36,6 @@ export const LABELS: Label[] = [
     identifier: 'love',
     locales: [
       { lang: 'en', name: 'Love 💞', description: 'Love'},
-      { lang: 'pt-BR', name: 'Amor 💞', description: 'Amor'},
     ]
   },
 ];
