@@ -52,7 +52,7 @@ for (const [name, rkey] of Object.entries(labelRkeys)) {
   console.log(`    rkey: '${rkey}',`);
 }
 
-const deletePost = await bot.post({ text: 'Like this post to delete all labels.' });
+const deletePost = await bot.post({ text: 'Start Here: Like this post to start fresh. You can also unlike and like it again to clear your existing labels and start over, if you need to.' });
 const deletePostRkey = deletePost.uri.split('/').pop()!;
 console.log('Delete post rkey:');
 console.log(`export const DELETE = '${deletePostRkey}';`);
